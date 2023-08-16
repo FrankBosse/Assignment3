@@ -25,23 +25,23 @@ var clearButton = document.getElementById('clear-button');
 
 mon.onclick = function() {
     dayClicked(mon);
-}
+};
 
 tue.onclick = function() {
     dayClicked(tue);
-}
+};
 
 wed.onclick = function() {
     dayClicked(wed);
-}
+};
 
 thu.onclick = function() {
     dayClicked(thu);
-}
+};
 
 fri.onclick = function() {
     dayClicked(fri);
-}
+};
 
 function dayClicked(ele) {
     if(!ele.classList.contains("clicked")) {
